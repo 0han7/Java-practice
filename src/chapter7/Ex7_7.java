@@ -13,24 +13,24 @@ public class Ex7_7 {
     }
 }
 
-    class Car{
-        String color;
-        int door;
+class Car {
+    String color;
+    int door;
 
-        void drive() {
-            System.out.println("drive, Brrr~");
-        }
-
-        void stop() {
-            System.out.println("stop!!");
-        }
+    void drive() {
+        System.out.println("drive, Brrr~");
     }
 
-    class FireEngine extends Car {
-        void water() {
-            System.out.println("water!!");
-        }
+    void stop() {
+        System.out.println("stop!!");
     }
+}
+
+class FireEngine extends Car {
+    void water() {
+        System.out.println("water!!");
+    }
+}
 
 
 

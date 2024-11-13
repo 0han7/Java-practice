@@ -2,16 +2,23 @@ package chapter7;
 
 public class Ex7_1 {
 
-    class Parent{
-    void parentMethod() {}
+    class Parent {
+        void parentMethod() {
+        }
     }
 
     class Child extends Parent {
-        void parentMethod() {} // 오버라이딩
-        void parentMethod(int i){} // 오버로딩
+        void parentMethod() {
+        } // 오버라이딩
 
-        void childMethod(){}
-        void childMethod(int i){} // 오버로딩
+        void parentMethod(int i) {
+        } // 오버로딩
+
+        void childMethod() {
+        }
+
+        void childMethod(int i) {
+        } // 오버로딩
     }
 }
 

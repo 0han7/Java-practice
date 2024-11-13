@@ -1,3 +1,5 @@
+package chapter7;
+
 class Product2 {
     int price;
     int bonusPoint;

@@ -7,25 +7,25 @@ public class Ex7_4 {
     }
 }
 
-    class Point{
-        int x;
-        int y;
+class Point {
+    int x;
+    int y;
 
-        // 생성자
-        Point(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
+    // 생성자
+    Point(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
+}
 
-    class Point3D extends Point {
-        int z;
+class Point3D extends Point {
+    int z;
 
-        // 자식 생성자
-        Point3D(int x, int y, int z) {
-            super(x, y); // Point(int x, int y) 호출
-            this.z = z;
-        }
+    // 자식 생성자
+    Point3D(int x, int y, int z) {
+        super(x, y); // Point(int x, int y) 호출
+        this.z = z;
     }
+}
 
 
