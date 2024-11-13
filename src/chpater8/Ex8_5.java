@@ -5,7 +5,7 @@ public class Ex8_5 {
         System.out.println(1);
         System.out.println(2);
 
-it         try {
+        try {
             System.out.println(3);
             System.out.println(0 / 0); // 예외 발생
             System.out.println(4);
